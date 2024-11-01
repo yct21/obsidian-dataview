@@ -38,7 +38,7 @@ You can bind to dataview metadata events, which fire on all file updates and cha
 ```ts
 plugin.registerEvent(plugin.app.metadataCache.on("dataview:index-ready", () => {
     ...
-});
+}));
 
 plugin.registerEvent(plugin.app.metadataCache.on("dataview:metadata-change",
     (type, file, oldPath?) => { ... }));
